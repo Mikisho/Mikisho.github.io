@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar {
+  float: left;
+  background-color: #000;
+  opacity: 0.8;
+}
+
+#sidebar .title {
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+#sidebar .places_list {
+  list-style: none;
+  display: block;
+  color: lightcyan;
+  width: 15em;
+  padding: .2em .8em;
+  text-decoration: none;
+  font-family: 'Anton', sans-serif;
+  cursor: pointer;
+}
+
+#sidebar li {
+  margin: 0 0 .2em 0;
+  padding: .2em .8em;
+}
+
+#sidebar .places_list :hover {
+  background-color: #2E86C1 ;
+  color: #FFF;
+}
+
+@media (max-width: 576px) {
+  #map {
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+ }
+}
