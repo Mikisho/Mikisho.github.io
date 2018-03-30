@@ -7,4 +7,4 @@ A single-page web application, built using the Knockout framework, that displays
 # Getting Started
 * Download the project or clone the repository
 * Open `index.html`
-* or see the demo at 
+
